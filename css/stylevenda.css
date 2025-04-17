@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0; 
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    animation: float 6s infinite alternate;
+}
+
+section{
+    width: 1500px;
+    display: flex;
+}
+
+.navegacao nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    position: fixed;
+    min-width: 1500px; 
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border-bottom: 2px black solid;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.logo{
+    max-width: 150px;
+}
+
+.logo img{
+    width: 100%;
+}
+
+.navegacao nav ul{
+    list-style: none;
+    display: flex;
+    padding-right: 10px;
+    gap: 50px;
+}
+
+.navegacao nav ul li{
+    font-size: 24px;
+}
+
+.navegacao nav ul li a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    transition: font-size 0.3s ease, box-shadow 0.3s ease;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+
+nav ul li a:hover{
+    transform: scale(1.1);
+    font-size: 26px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+div img{
+    max-width: 300px;
+}
+
+.compras{
+    padding-top: 200px;
+    gap: 40px;
+    margin: 0 auto;
+    justify-content: center;
+    
+}
+
+.camisa1, .camisa2, .camisa3, .camisa4{
+    max-width: 300px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.3);
+    padding: 20px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    transition: font-size 0.3s ease, box-shadow 0.3s ease;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.camisa1 nav a p, .camisa2 nav a p, .camisa3 nav a p, .camisa4 nav a p {
+    font-size: 18px;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+}
+
+.camisa1:hover, .camisa2:hover, .camisa3:hover, .camisa4:hover{
+    transform: scale(1.1);
+}

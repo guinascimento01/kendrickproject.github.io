@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    animation: float 6s infinite alternate;
+}
+
+section{
+    width: 1500px;
+    display: flex;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    position: fixed;
+    min-width: 1500px; 
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border-bottom: 2px black solid;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.logo{
+    max-width: 150px;
+}
+
+.logo img{
+    width: 100%;
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    padding-right: 10px;
+    gap: 50px;
+}
+
+nav ul li{
+    font-size: 24px;
+}
+
+nav ul li a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    transition: font-size 0.3s ease, box-shadow 0.3s ease;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+
+nav ul li a:hover{
+    transform: scale(1.1);
+    font-size: 26px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+.secao-texto{
+    padding-top: 150px;
+    gap: 30px;
+    text-align: center;
+    justify-content: center ;
+}
+
+.secao-texto p{
+    text-align: left;
+}
+
+div img{
+    width: 200px;
+
+}
+
+.album1, .album2, .album3, .album4, .album5{
+    max-width: 200px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.3);
+    padding: 20px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    transition: font-size 0.3s ease, box-shadow 0.3s ease;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.album1:hover, .album2:hover, .album3:hover, .album4:hover, .album5:hover{
+    transform: scale(1.1);
+}
