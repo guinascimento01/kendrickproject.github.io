@@ -1,6 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Special+Gothic+Expanded+One&display=swap');
+
 *{
     margin: 0;
     padding: 0;
+    font-family: "Special Gothic Expanded One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
 body{
@@ -65,7 +70,7 @@ nav ul li a:hover{
 
 .secao-texto{
     padding-top: 150px;
-    gap: 30px;
+    gap: 15px;
     text-align: center;
     justify-content: center ;
 }
@@ -80,12 +85,13 @@ div img{
 }
 
 .album1, .album2, .album3, .album4, .album5{
-    max-width: 200px;
+    max-width: 240px;
     box-shadow: 0 8px 24px rgba(0, 0, 0, 0.3);
-    padding: 20px;
+    padding: 15px;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     transition: font-size 0.3s ease, box-shadow 0.3s ease;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
+    font-size: 13px;
 }
 
 .album1:hover, .album2:hover, .album3:hover, .album4:hover, .album5:hover{
